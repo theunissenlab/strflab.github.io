@@ -1,0 +1,75 @@
+body {
+    text-align:center;
+    font-size:10pt;
+    font-family:"Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+}
+p, h2, h1 { margin:0px; padding:0px; }
+img {border:none; }
+#bgImg {margin-bottom:-370px; position:relative; z-index:-2; }
+#main {
+    width:80%;
+    min-width:900px;
+    margin:auto;
+    text-align:left;
+    margin-top:10px;
+}
+#menu {
+    float:right;
+    margin-right:5%;
+    font-weight:bold;
+    font-size:14pt;
+}
+#menu a {
+	padding: 0px 20px;
+	border-right: 1px solid black
+}
+#title {
+    float:right;
+    font-weight:medium;
+    color:black;
+    margin-right:50px;
+    margin-top:160px;
+}
+#title h1{
+    font-size:72pt;
+}
+#title p {
+    float:right;
+}
+#download {
+    float:left;
+    color:black;
+    text-decoration:none;
+    border:1px solid #888;
+    padding:10px;
+    width:220px;
+    height:60px;
+    margin:180px 0px 0px 50px;
+    background:rgba(255, 255, 255, .3);
+}
+#download:hover {
+    background:rgba(255, 255, 255, .8);
+}
+#download img {
+    margin-top:5px;
+    float:right;
+}
+#download #name {
+    font-size:18pt;
+}
+#download #version {
+    font-size:8pt;
+}
+#download #text {
+    margin:10px;
+}
+.clear {
+    clear:both;
+}
+#maintext {
+    float:left;
+    margin-top:100px;
+}
+
+.lcol { float:left; width:48%; }
+.rcol { float:right; width:48%; }

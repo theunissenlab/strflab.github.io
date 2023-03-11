@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+    <head>
+        <title>STRFlab</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+        <link rel="stylesheet" type="text/css" href="strflab.css" /> 
+        <script type="text/javascript">
+            function bannerImg() {
+                var width = window.innerWidth / 2
+                document.getElementById("bgImg").style.marginLeft = width-900 + "px"
+            }
+            window.onload = bannerImg
+            window.onresize=bannerImg
+        </script>
+    </head>
+    <body>
+        <div id='main'>
+            <div id='menu'><a href='http://strfpak.berkeley.edu/'>STRFPak</a><a href='http://neuralprediction.berkeley.edu/'>Challenge</a></div>
+            <img id='bgImg' src='logo.png' alt='Logo' />
+            <div id='banner'>
+                <div id='title'><h1>STRFlab</h1><p>Spatio-temporal receptive field lab</p></div>
+                <a href='download.php' id='download'>
+                    <img src='download.png' alt='Download' />
+                    <div id='text'>
+                        <p id='name'>Download</p>
+                        <p id='version'>v1.45 (10/25/2010)</p>
+                    </div>
+                </a>
+            </div>
+            <div class="clear"></div>
+            <div id='maintext'>
+                <h2>What is STRFlab?</h2>
+                <p class='lcol'>STRFlab is a Matlab toolbox for estimating the linear and nonlinear stimulus-response mapping function of sensory systems. This mapping function is commonly called the spatio- or spectro-temporal receptive field (STRF). A quantitative estimate of the STRF can be used in subsequent computational modeling studies or to predict future responses of the system. STRFlab implements several general STRF estimation techniques and can be used with any stimuli (including natural scenes and sounds).</p>
+                <p class='rcol'>
+                    The theoretical basis for STRF estimation has been known for some time, but estimation software has not been widely available. This project aims to develop appropriate software and make it available to the wider community of sensory neuroscientists. Although STRFlab is based on established methods it incorporates two important innovations. First, STRFlab can be used to characterize a sensory system from its response to arbitrary stimuli including natural signals (e.g., vocalizations, natural scenes). Second, STRFlab incorporates several methods for estimating nonlinear STRFs. STRFlab also includes tutorial examples and documentation.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
